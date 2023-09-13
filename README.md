@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Dataguess Country Searching App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to improve the developer's skills by making it possible to practice multiple concepts on Frontend Development as well as demonstrate them if needed.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+1. Web Application: This app uses React JS to render client side JavaScript.
 
-### `npm start`
+2. GraphQL and Apollo: This app is able to make API calls to a public API to get countries object containing all the countries on Earth. While it is possible to change API params to get specific countries, it makes more sense to fetch all at once and renders conditionally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Search Mechanism: This app makes it possible to filter the countries depending on user input as 'search:COUNTRY_NAME' or 'search:COUNTRY_NAME group:size. It leverages react states and context API to manage this mechanism.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. TailwindCSS: This app styles itself with the help of a postcssprocessor known as TailwindCSS. Thanks to this package, it is considerably easier and well-structured as far as the styling is considered.
 
-### `npm test`
+   > This app is designed to be used on desktops rather than mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Jest: This app has some amount of unit testing using jest.js package. While it is important to create separate tests for every component and function, this app has only a few to demonstrate the skills of the developer.
 
-### `npm run build`
+# Demonstrated Skills
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js: Utilized React hooks such as useState, useEffect, and useMemo to manage component states and lifecycle events.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- TypeScript: Implemented TypeScript for type-checking to enhance code quality and reduce runtime errors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Context API: Used the React Context API for state management across components.
 
-### `npm run eject`
+- Responsive Design: Designed the application to be mobile-responsive using Tailwind CSS.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Unit Testing: Used React Testing Library along with Jest for unit testing components and utilities.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Installation and Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repository:
+```sh
+git clone [repository-link](https://github.com/ssoydabas/dataguess-graphQL-FE)
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Navigate to the project directory:
+```sh
+cd dataguess-graphQL-FE
+```
 
-## Learn More
+3. Install dependencies:
+```sh
+npm ci
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run the application:
+```sh
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributing
+
+This is a personal project and won't be accepting pull requests. However, suggestions and feedback are welcome.
